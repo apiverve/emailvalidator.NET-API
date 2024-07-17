@@ -110,7 +110,6 @@ if(response.error != null) {
     },
     "isCompanyEmail": true,
     "isFreeEmail": false,
-    "isDisposable": false,
     "checksum": 797
   }
 }
