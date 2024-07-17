@@ -55,9 +55,6 @@ public class data
     [JsonProperty("isFreeEmail")]
     public bool isFreeEmail { get; set; }
 
-    [JsonProperty("isDisposable")]
-    public bool isDisposable { get; set; }
-
     [JsonProperty("checksum")]
     public int checksum { get; set; }
 
