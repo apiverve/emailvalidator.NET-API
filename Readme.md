@@ -70,7 +70,7 @@ Using the API client, you can perform requests to the API.
 ###### Define Query
 
 ```
-var queryOptions = new emailvalidatorQueryOptions {
+var queryOptions = new EmailValidatorQueryOptions {
   email = "support@myspace.com"
 };
 ```
@@ -111,7 +111,8 @@ if(response.error != null) {
     "isCompanyEmail": true,
     "isFreeEmail": false,
     "checksum": 797
-  }
+  },
+  "code": 200
 }
 ```
 
